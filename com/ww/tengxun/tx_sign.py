@@ -2,8 +2,8 @@ import requests
 from requests import post
 
 # 腾讯Cookie,
-tx_cookie = ''
-auth_refresh_url = 'https://access.video.qq.com/user/auth_refresh?vappid=11059694&vsecret=fdf61a6be0aad57132bc5cdf78ac30145b6cd2c1470b0cfe&type=qq&g_tk=&g_vstk=406154242&g_actk=982078386&callback=jQuery19107263100220876779_1626052698163&_=1626052698164'
+tx_cookie = 'tvfe_boss_uuid=3ad79dcbd7babdf2; video_platform=2; video_platform=2; video_guid=b6f196c3f21e4eab; pgv_info=ssid=s2676863766; pgv_pvid=9204162864; main_login=wx; access_token=65_kIykAnC-Pcil1WpvQ7Agp9E-RDYE27EmWUJo2DdfaDGtkuuQ0AgMNsn5zn6w5TCBt55GOnTkZ1kdJUdHtIkyy98ns55fEl70_T1xPdsQNCU; appid=wx5ed58254bc0d6b7f; openid=ox8XOvhNOM3t8T6zIUbWdbFj3rOs; vuserid=2775066920; vusession=An7kYvTyXeGbneRW21pz9g.N; refresh_token=65_YhMoRyRRjr-Tt--UoGAubIA_w_4s19CtjdkZwn1bu7Lx3L1OmL7jrUA2Bom5CwCHw0XxPWOe7qKrKA6it3S6AbK5lDLxjU7voECTxgzJYg4; next_refresh_time=6600; _video_qq_version=1.1; _video_qq_access_token=65_kIykAnC-Pcil1WpvQ7Agp9E-RDYE27EmWUJo2DdfaDGtkuuQ0AgMNsn5zn6w5TCBt55GOnTkZ1kdJUdHtIkyy98ns55fEl70_T1xPdsQNCU; _video_qq_appid=wx5ed58254bc0d6b7f; _video_qq_openid=ox8XOvhNOM3t8T6zIUbWdbFj3rOs; _video_qq_vuserid=2775066920; _video_qq_vusession=An7kYvTyXeGbneRW21pz9g.N; _video_qq_refresh_token=65_YhMoRyRRjr-Tt--UoGAubIA_w_4s19CtjdkZwn1bu7Lx3L1OmL7jrUA2Bom5CwCHw0XxPWOe7qKrKA6it3S6AbK5lDLxjU7voECTxgzJYg4; _video_qq_main_login=wx; _video_qq_login_time_init=1676690562; _video_qq_next_refresh_time=6600; login_time_init=2023-2-18 11:22:53'
+auth_refresh_url = 'https://access.video.qq.com/user/auth_refresh?vappid=11059694&vsecret=fdf61a6be0aad57132bc5cdf78ac30145b6cd2c1470b0cfe&type=wx&g_tk=&g_vstk=1523530781&g_actk=470130273&raw=1'
 
 # TG配置
 TG_TOKEN = 'xxx'  # TG机器人的TOKEN
